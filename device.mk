@@ -48,7 +48,7 @@ PRODUCT_PACKAGES += \
     Torch
 
 # HWComposer
-PRODUCT_PACKAGES += \
-    hwcomposer.msm7x27a
+#PRODUCT_PACKAGES += \
+#    hwcomposer.msm7x27a
 
 include device/lge/p700/system_prop.mk
