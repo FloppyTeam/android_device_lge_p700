@@ -18,3 +18,7 @@ PRODUCT_PROPERTY_OVERRIDES += ro.sf.lcd_density="240"
 PRODUCT_PROPERTY_OVERRIDES += ro.sf.hwrotation="180"
 # Disable LPA
 PRODUCT_PROPERTY_OVERRIDES += lpa.decode="false"
+# AOSP low Ram
+PRODUCT_PROPERTY_OVERRIDES += ro.config.low_ram=true
+# Classic webview provider
+PRODUCT_PROPERTY_OVERRIDES += persist.webview.provider=classic
